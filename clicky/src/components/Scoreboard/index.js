@@ -8,13 +8,8 @@ function Scoreboard(props){
                 <h2>Clicky Game!</h2>
                 <p>Click on an image to score a point, dont click the same image twice!</p>
                 <hr />
-                <div className="navbar container-fluid">
-                    <div classname="game-message">
-                        <h3 className="d-inline" id="message">
-                            {props.message}
-                        </h3>
-                    </div>
-                    <div className="scoreboard">
+                <div className="navbar container-fluid text-center">
+                    <div className="scoreboard text-center">
                         <h3 className="d-inline">
                             {" "}
                             <span>
